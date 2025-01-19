@@ -1,5 +1,6 @@
 HasPermission = function(src)
     return IsPlayerAceAllowed(src, 'throwvehicle') 
+end
 
 RegisterServerEvent("steroids:checkPermissions")
 AddEventHandler("steroids:checkPermissions", function()
